@@ -1,0 +1,23 @@
+<form #loginInfo="ngForm" >
+  <h2 class="text-center text-primary"> {{this.workT.clock}}</h2>
+  <h2 class="text-center text">Please start the Job</h2>
+  
+  <div class="form-group text-center">
+    <button class="btn btn-success" type="button" [disabled]="!this.workT.isRun"
+        (click)="this.startTimer()">START
+    </button>
+    <h2 class="text-center text-primary" *ngFor="let entry of this.workT.entries">
+        <span *ngIf="this.workT.getElapsedTime(entry) as elapsed">
+          {{this.elapsed.hours}} h {{elapsed.minutes}} m {{elapsed.seconds}} s
+        </span>
+    </h2>
+
+  </div>
+    <hr>
+    <div class="form-group text-center">
+    <button class="btn btn-info" type="button" [disabled]="this.workT.isRun" (click)="this.exitAndSave()" >Exit</button>
+  </div>
+
+</form>
+
+
