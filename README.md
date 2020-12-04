@@ -1,2 +1,3 @@
 
-Web application using secure Node.js, MongoDB, Express RESTful API and angular from scratch. Has a messaging system and "like" functionality between users - Deployed on Azure
+Web Applications using Node.js & Express RESTful API and angular from scratch.
+An app that manages the employees' attendance clock.
