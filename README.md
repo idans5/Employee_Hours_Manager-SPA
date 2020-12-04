@@ -1,11 +1,9 @@
 
-Web Applications using Node.js & Express RESTful API and angular from scratch.
-An app that manages the employees' attendance clock.
-
-﻿# Employee hours manager
+# Employee hours manager
 ### Deployed on Heroku
 Web Applications using Node.js & Express RESTful API and angular from scratch.
 
+An app that manages the employees' attendance clock.
 
 ## Frameworks, and Other Resources
 Node.js
